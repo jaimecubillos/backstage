@@ -1,0 +1,12 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: backstage
+  description: My First Backstage application.
+  # Example for optional annotations
+  annotations:
+    github.com/project-slug: jaimecubillos/backstage/new/main
+spec:
+  type: website
+  owner: john@example.com
+  lifecycle: experimental
